@@ -143,4 +143,13 @@ footer {
   .picture-pc {
     display: block;
   }
+
+  /* 商品 */
+
+  .mrechandise-list {
+    gap: 120px;
+    max-width: 940px;
+  }
+
+  
 }
