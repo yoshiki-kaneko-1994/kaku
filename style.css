@@ -77,11 +77,8 @@ header {
 }
 
 .mrechandise-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  max-width: 730px;
   margin: 0 auto;
+  width: 200px;
 }
 
 .mrechandises {
@@ -131,7 +128,7 @@ footer {
 
 /* width >= 600 */
 
-@media (min-width: 600px) {
+@media (width >= 600px) {
 
   /* 画像 */
 
@@ -144,7 +141,11 @@ footer {
   }
 
   .mrechandise-list {
+    all: unset;
+    display: flex;
+    flex-wrap: wrap;
     gap: 120px;
     max-width: 940px;
+    margin: 0 auto;
   }
 }
