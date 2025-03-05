@@ -47,17 +47,14 @@ select, button:hover {
 /* header */
 
 header {
-  background: rgb(255, 254, 176);
   text-align: center;
-  height: 160px;
-  line-height: 160px;
+  padding-top: 80px;
 }
 
 /* 画像 */
 
 .picture {
-  background: rgb(205, 255, 167);
-  
+  margin-top: 80px;
 }
 
 .picture-sp {
@@ -93,10 +90,17 @@ select {
   text-align: center;
 }
 
+.btn {
+  display: flex;
+  width: 294px;
+  margin: 64px auto;
+  gap: 54px;
+}
+
 button {
   all:unset;
   display: block;
-  margin: 32px auto;
+  margin: 0 auto;
   background: skyblue;
   border-radius: 20px;
   width: 120px;
@@ -113,10 +117,8 @@ button:active {
 /* フッター */
 
 footer {
-  background: rgb(255, 254, 176);
   text-align: center;
-  height: 160px;
-  line-height: 160px;
+  margin: 120px 0 16px;
 }
 
 /* トップボタン */
@@ -145,7 +147,11 @@ footer {
     display: flex;
     flex-wrap: wrap;
     gap: 120px;
-    max-width: 940px;
-    margin: 0 auto;
+    max-width: 840px;
+    margin: 48px auto 0;
+  }
+
+  .mrechandises {
+    margin: 0;
   }
 }
